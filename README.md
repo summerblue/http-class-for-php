@@ -1,8 +1,8 @@
 ##1. 基本 get 请求: 
-
+```php
     $http = new Http();         // 实例化对象
     $result =  $http->get('http://weibo.com/at/comment');
-    
+```
 ##2. 基本 post 请求: 
 
     $http = new Http();         // 实例化对象
